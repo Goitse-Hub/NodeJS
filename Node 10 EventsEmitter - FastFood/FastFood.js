@@ -3,9 +3,6 @@
 // First import Events Emitter Class
 const EventEmitter = require("node:events");
 
-//Creating Our Own Module That Build On Top Of The Event Emitter Class
-// using the extends keyword from events module with the fastfood class
-
 // inheritance allows us to use the FastFood class as if its an event emitter class
 class FastFood extends EventEmitter {
     constructor() {
