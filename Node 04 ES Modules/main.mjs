@@ -6,9 +6,6 @@ console.log(add(5, 5));
 // Third Pattern
 import math from "./math-esm-pattern-3.mjs"
 
-// After Importing You Can Distructure The Function To remove(math)
-//const {add, substact} = math;
-
 console.log("Third Pattern");
 console.log(math.add(5, 5));
 console.log(math.substact(5, 5));
