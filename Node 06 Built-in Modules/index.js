@@ -2,7 +2,6 @@
 
 const path = require("node:path");
 
-
 console.log(__filename);
 console.log(__dirname);
 
@@ -24,7 +23,6 @@ console.log(path.parse(__dirname));
 // Property and Methods 4 (formate method - returns a path string given an object)
 console.log(".....FORMAT.....")
 console.log(path.format(path.parse(__filename)));
-
 
 // Property and Methods 5 (Absolute - returns whether a path is absolute or not)
 console.log(".....ABSOLUTE.....")
