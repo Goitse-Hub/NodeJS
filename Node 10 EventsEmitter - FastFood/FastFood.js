@@ -1,5 +1,3 @@
-
-
 // First import Events Emitter Class
 const EventEmitter = require("node:events");
 
