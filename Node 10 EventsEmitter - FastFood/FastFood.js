@@ -1,4 +1,4 @@
-// Inheritance - FastFood Class is going to inherit from the event emmiter class (ts fuctionality)
+
 
 // First import Events Emitter Class
 const EventEmitter = require("node:events");
