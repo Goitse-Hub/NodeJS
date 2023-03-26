@@ -1,8 +1,3 @@
-/*
-require(path) - is used it import a module by path
-*/
-
-// To include the add.js Module into the index module
 const add = require('./add.js');
 
 //Prompt User For Inputs
