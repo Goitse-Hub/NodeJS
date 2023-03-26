@@ -10,7 +10,5 @@ const inputTwo = parseInt(prompt("Enter Second Number? "));
 // Call The Function To Perform Addition
 const sum = add(inputOne, inputTwo);
 
-
-//Display
 console.log(sum);
 
